@@ -1,3 +1,5 @@
-# Frontend-version-control-task-rayanyunus
-A frontend project demonstrating Git version control, branching, pull requests, merging, and commit reversion.
-Tick the checkbox if it appears.
+echo "# Frontend Version Control Task
+A small frontend project built to practise Git workflows: branching, commits, pull requests, merging, reverting and renaming branches." > README.md
+git add README.md
+git commit -m "docs: add initial README"
+git push -u origin main
