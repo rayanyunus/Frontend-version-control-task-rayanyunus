@@ -46,3 +46,34 @@ body {
     margin-bottom: 15px;
     color: #1e293b;
 }
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo h2 {
+    color: #1e293b;
+}
+
+.logo span {
+    color: #2563eb;
+}
+
+.navigation {
+    display: flex;
+    gap: 25px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: #2563eb;
+}
